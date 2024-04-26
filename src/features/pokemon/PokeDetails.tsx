@@ -13,9 +13,6 @@ const PokeDetails: React.FC<IPokeDetailsProps> = ({
   return (
     <div className="pokeDetails" role="pokeDetails">
       <h2 className="section-title">{poke.name}</h2>
-      <button role="displayListViewButton" onClick={() => handleViewList()}>
-        Back
-      </button>
       <img src={poke.sprites.front_default} alt={poke.sprites.front_default} />
       <ul className="pokeList">
         <li>
@@ -42,6 +39,9 @@ const PokeDetails: React.FC<IPokeDetailsProps> = ({
           </p>
         </li>
       </ul>
+      <button role="displayListViewButton" onClick={() => handleViewList()}>
+        Back
+      </button>
     </div>
   );
 };
