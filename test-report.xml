@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="D:\projects\evamp\PokemonAssignment\pokemon\src\services\pokemonService.test.tsx">
+    <testCase name="useGetPokemonByIdQuery renders getPokemonById hook" duration="202"/>
+    <testCase name="useGetPokemonByIdQuery renders getPokemonListing hook" duration="348"/>
+  </file>
+  <file path="D:\projects\evamp\PokemonAssignment\pokemon\src\features\pokemon\__tests__\PokeDetails.test.tsx">
+    <testCase name="It should decribe pokemon details view should render pokemon details without errors" duration="448"/>
+    <testCase name="It should decribe pokemon details view should click on back button to view poke list" duration="189"/>
+  </file>
+  <file path="D:\projects\evamp\PokemonAssignment\pokemon\src\__tests__\App.test.tsx">
+    <testCase name="it should describe app render render app component" duration="490"/>
+  </file>
+  <file path="D:\projects\evamp\PokemonAssignment\pokemon\src\features\pokemon\__tests__\Pokemon.test.tsx">
+    <testCase name="It should decribe pokemon details view should render loading on pokemon and then data" duration="920"/>
+  </file>
+  <file path="D:\projects\evamp\PokemonAssignment\pokemon\src\features\pokemon\__tests__\PokemonList.test.tsx">
+    <testCase name="It should decribe pokemon details view should render loading on pokemonList and then data" duration="638"/>
+  </file>
+</testExecutions>
